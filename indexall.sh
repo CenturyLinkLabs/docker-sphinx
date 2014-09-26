@@ -1,6 +1,3 @@
 #!/bin/bash
-#
-# @author leodido
 
-indexer --all "$@"
-./searchd.sh
+indexer --all "$@" && searchd && while true; do indexer --all --rotate "$@"; sleep 5; done
