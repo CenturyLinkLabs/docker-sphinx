@@ -1,5 +1,6 @@
 Sphinx Search
 =============
+[![](https://badge.imagelayers.io/centurylink/sphinx.svg)](https://imagelayers.io/?images=centurylink/sphinx:latest 'Get your own badge on imagelayers.io')
 
 ## Introduction
 
