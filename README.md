@@ -2,6 +2,10 @@ Sphinx Search
 =============
 [![](https://badge.imagelayers.io/centurylink/sphinx.svg)](https://imagelayers.io/?images=centurylink/sphinx:latest 'Get your own badge on imagelayers.io')
 
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 ## Introduction
 
 This image borrows heavily from Leo Di Donato work at [leodido/dockerfiles](https://github.com/leodido/dockerfiles). The
