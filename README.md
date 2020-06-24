@@ -8,10 +8,10 @@ This repo is no longer being maintained. Users are welcome to fork it, but we ma
 
 ## Introduction
 
-This image borrows heavily from Leo Di Donato work at [leodido/dockerfiles](https://github.com/leodido/dockerfiles). The
-The updates to the image was done to facilitate the following:
+This image borrows heavily from Leo Di Donato's work at [leodido/dockerfiles](https://github.com/leodido/dockerfiles). The
+updates to the image were done to facilitate the following:
 
-1. Temporary fix for the issue of `libstemmer` that changed the name of the non-UTF8 Hungarian source files.
+1. Temporarily fix an issue with `libstemmer` that changed the name of the non-UTF8 Hungarian source files.
 2. Flip the order of EXPOSEd ports for convenient linking.
 3. Mount the VOLUMEs to expose the corresponding directories.
 4. By default, specify a CMD to run the `indexall.sh` script. It can be overriding at runtime.
@@ -24,7 +24,7 @@ You can read [here](http://sphinxsearch.com/bugs/changelog_page.php?version_id=4
 
 ## Content
 
-A Sphinx Search instance builded from source.
+A Sphinx Search instance built from source.
 
 Supports:
 
